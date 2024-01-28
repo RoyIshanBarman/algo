@@ -1,0 +1,46 @@
+2024-01-28 02:24:21,116: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-01-28 02:24:30,461: root: INFO: Current backtesting datetime 2020-01-02 08:30:00-05:00
+2024-01-28 02:24:30,461: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-28 02:24:30,462: root: INFO: Current backtesting datetime 2020-01-02 09:30:00-05:00
+2024-01-28 02:24:30,462: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-28 02:24:30,463: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-28 02:24:30[0m
+2024-01-28 02:24:30,464: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-28 02:24:31,563: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-28 02:24:32,171: root: ERROR: {'status': 'error', 'code': 'parameterInvalid', 'message': 'You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2023-12-26, but you have requested 2019-12-30. You may need to upgrade to a paid plan.'}
+2024-01-28 02:24:32,176: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ishan Roy Barman\Desktop\algo\main.py", line 56, in on_trading_iteration
+    probability, sentiment = self.get_sentiment()
+                             ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ishan Roy Barman\Desktop\algo\main.py", line 42, in get_sentiment
+    news_result = self.news_api.get_everything(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\newsapi\newsapi_client.py", line 334, in get_everything
+    raise NewsAPIException(r.json())
+newsapi.newsapi_exception.NewsAPIException: {'status': 'error', 'code': 'parameterInvalid', 'message': 'You are trying to request results too far in the past. Your plan permits you to request articles as far back as 2023-12-26, but you have requested 2019-12-30. You may need to upgrade to a paid plan.'}
+
+2024-01-28 02:24:32,177: root: INFO: MLTrader : Executing the on_bot_crash event method
+2024-01-28 02:24:32,184: root: INFO: Backtesting finished
+2024-01-28 02:24:32,186: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-01-28 02:24:32,246: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-01-28 02:24:32,247: backtest_stats: INFO: Backtest took 0:00:11.132645 for a speed of 0.000

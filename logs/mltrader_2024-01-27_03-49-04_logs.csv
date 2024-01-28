@@ -1,0 +1,27 @@
+2024-01-27 03:49:04,920: root: INFO: mltrader : Executing the initialize lifecycle method
+2024-01-27 03:49:05,552: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-01-27 03:49:05,552: root: INFO: mltrader : Executing the before_market_opens lifecycle method
+2024-01-27 03:49:05,553: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-01-27 03:49:05,553: root: INFO: mltrader : Executing the before_starting_trading lifecycle method
+2024-01-27 03:49:05,554: root: INFO: [34mmltrader : Executing the on_trading_iteration lifecycle method at 2024-01-27 03:49:05[0m
+2024-01-27 03:49:05,556: root: INFO: [34mmltrader : Trading iteration ended at 2024-01-27 03:49:05[0m
+2024-01-27 03:49:05,557: root: INFO: mltrader : [34mSleeping for 86400 seconds[0m
+2024-01-27 03:49:05,558: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-01-27 03:49:05,558: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-01-27 03:49:05,558: root: INFO: [34mmltrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-27 03:49:05,559: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-27 03:49:05,560: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-27 03:49:05,560: root: INFO: mltrader : Executing the after_market_closes lifecycle method
+2024-01-27 03:49:05,561: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-01-27 03:49:05,562: root: INFO: mltrader : Executing the before_market_opens lifecycle method
+2024-01-27 03:49:05,562: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-01-27 03:49:05,562: root: INFO: mltrader : Executing the before_starting_trading lifecycle method
+2024-01-27 03:49:05,563: root: INFO: Current backtesting datetime 2023-12-18 15:59:00-05:00
+2024-01-27 03:49:05,564: root: INFO: mltrader : Executing the before_market_closes lifecycle method
+2024-01-27 03:49:05,564: root: INFO: Current backtesting datetime 2023-12-18 16:00:00-05:00
+2024-01-27 03:49:05,564: root: INFO: mltrader : Executing the after_market_closes lifecycle method
+2024-01-27 03:49:05,564: root: INFO: mltrader : Executing the on_strategy_end lifecycle method
+2024-01-27 03:49:05,575: root: INFO: Backtesting finished
+2024-01-27 03:49:05,579: root: INFO: There were no trades in this backtest.
+2024-01-27 03:49:05,640: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-01-27 03:49:05,641: backtest_stats: INFO: Backtest took 0:00:00.724158 for a speed of 0.000

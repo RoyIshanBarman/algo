@@ -1,0 +1,95 @@
+2024-01-27 03:45:09,033: root: INFO: mltrader : Executing the initialize lifecycle method
+2024-01-27 03:45:09,644: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-01-27 03:45:09,644: root: INFO: mltrader : Executing the before_market_opens lifecycle method
+2024-01-27 03:45:09,645: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-01-27 03:45:09,645: root: INFO: mltrader : Executing the before_starting_trading lifecycle method
+2024-01-27 03:45:09,646: root: INFO: [34mmltrader : Executing the on_trading_iteration lifecycle method at 2024-01-27 03:45:09[0m
+2024-01-27 03:45:09,647: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,652: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,652: root: INFO: [32mNew market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status unprocessed was submitted.[0m
+2024-01-27 03:45:09,653: root: INFO: [34mmltrader : Trading iteration ended at 2024-01-27 03:45:09[0m
+2024-01-27 03:45:09,653: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,653: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,654: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,654: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-27 03:45:09,654: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-27 03:45:09,654: root: INFO: [32mFilled Transaction: buy 106.0 of SPY at 469.48999023 USD per share[0m
+2024-01-27 03:45:09,654: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was filled
+2024-01-27 03:45:09,657: root: INFO: mltrader : [34mSleeping for 86400 seconds[0m
+2024-01-27 03:45:09,658: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-01-27 03:45:09,658: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-01-27 03:45:09,659: root: INFO: [34mmltrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-27 03:45:09,659: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,659: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,659: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,660: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,660: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,660: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,660: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,661: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,661: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,661: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,663: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-27 03:45:09,663: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,663: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,663: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,663: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,664: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-27 03:45:09,664: root: INFO: mltrader : Executing the after_market_closes lifecycle method
+2024-01-27 03:45:09,664: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,664: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,664: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,666: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-01-27 03:45:09,666: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,667: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,667: root: INFO: mltrader : Executing the before_market_opens lifecycle method
+2024-01-27 03:45:09,667: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,667: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,668: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,668: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-27 03:45:09,668: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,668: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,669: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-01-27 03:45:09,669: root: INFO: mltrader : Executing the before_starting_trading lifecycle method
+2024-01-27 03:45:09,670: root: INFO: [34mmltrader : Executing the on_trading_iteration lifecycle method at 2024-01-27 03:45:09[0m
+2024-01-27 03:45:09,671: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,671: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-27 03:45:09,671: root: ERROR: cannot access local variable 'order' where it is not associated with a value
+2024-01-27 03:45:09,673: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\strategies\strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\tools\decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ishan Roy Barman\AppData\Roaming\Python\Python311\site-packages\lumibot\tools\decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Ishan Roy Barman\Desktop\algo\tradingbot.py", line 43, in on_trading_iteration
+    self.submit_order(order)
+                      ^^^^^
+UnboundLocalError: cannot access local variable 'order' where it is not associated with a value
+
+2024-01-27 03:45:09,674: root: INFO: mltrader : Executing the on_bot_crash event method
+2024-01-27 03:45:09,692: root: INFO: Backtesting finished
+2024-01-27 03:45:10,060: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-01-27 03:45:10,061: backtest_stats: INFO: Backtest took 0:00:01.029416 for a speed of 0.000
